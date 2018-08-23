@@ -9,7 +9,7 @@ public class MyFeignImpl implements MyFeign {
     
     private MyFeign client;
 
-    private static final String BASE_URL = "https://apimhml.oi.net.br/";
+    private static final String BASE_URL = "yourdomain";
 
     public MyFeignImpl() {
 

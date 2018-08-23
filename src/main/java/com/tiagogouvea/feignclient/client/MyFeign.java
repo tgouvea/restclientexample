@@ -8,7 +8,7 @@ public interface MyFeign {
 
     static final String POST = "POST ";
     
-    static final String CREATE_TOKEN = POST + "/auth/oauth/v2/token";
+    static final String CREATE_TOKEN = POST + "/oauthpath";
 	
     
     @RequestLine(CREATE_TOKEN)
